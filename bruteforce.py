@@ -1,5 +1,4 @@
 import rarfile, zipfile
-import datetime
 from threading import Thread
 import optparse
 import itertools
