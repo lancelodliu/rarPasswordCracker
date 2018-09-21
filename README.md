@@ -6,9 +6,9 @@ Works in Linux/Windows.
 
 ```python```
 
-`python bruteforce.py --fr filetocrack.rar -c charset -n sizeofpassword`
+`python bruteforce.py -f filetocrack.rar -c charset -s minsizeofpassword -e maxsizeofpassword -t usethreadsornot`
 
-`python bruteforce.py --fr RARFILE.rar -c abcdefghijklmnopqrst0123 -n 6`
+`python bruteforce.py -f RARFILE.rar -c abcdefghijklmnopqrst0123 -e 6`
 
-`python bruteforce.py --fz ZIPFILE.zip -c charset -n sizeofpassword`
+`python bruteforce.py -f ZIPFILE.zip -c charset -s 1 -e 6 -t 0`
 
